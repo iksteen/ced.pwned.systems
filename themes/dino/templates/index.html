@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9700ea6d9d0bbd5c4ca21c85b5b23c185c4e1e3932daac07c8f558a21987f9c1
-size 987
+{% extends "base.html" %}
+{% block content %}
+
+{% block content_title %}
+<header>Blawg</header>
+{% endblock %}
+
+{% for article in articles_page.object_list %}
+<article class="index">
+    {% include "article-header.html" %}
+</article>
+{% endfor %}
+
+{% include 'pagination.html' %}
+{% endblock content %}
