@@ -1,0 +1,2 @@
+echo filter=lfs diff=lfs merge=lfs -text
+forgot filter=lfs diff=lfs merge=lfs -text
