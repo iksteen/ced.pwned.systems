@@ -1,0 +1,4 @@
+core2.js filter=lfs diff=lfs merge=lfs -text
+index.html filter=lfs diff=lfs merge=lfs -text
+rom.bin filter=lfs diff=lfs merge=lfs -text
+screen.js filter=lfs diff=lfs merge=lfs -text
