@@ -1,0 +1,2 @@
+36c29e798a01dd5b6ef86c8bd976d4df_soup_meat_tea.c filter=lfs diff=lfs merge=lfs -text
+solve.py filter=lfs diff=lfs merge=lfs -text
